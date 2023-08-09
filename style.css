@@ -192,14 +192,23 @@ html {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgba(12, 12, 12, 0.8);
+    background-image: linear-gradient(rgba(12, 12, 12, 0.8), rgba(15, 15, 15, 0.8));
+    background-position: center center; 
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .cardapio h2 {
-    font-size: 5rem;
+    font-size: 7rem;
     color: #e6e6e6;
     text-transform: uppercase;
+    text-align: right;
+    justify-content: right;
+    justify-items: right;
+    margin-right: -160px;
+    margin-top: 90px;
 }
+
 
 .itens-cardapio {
     width: 80%;
@@ -211,6 +220,29 @@ html {
     align-items: center;
     gap: 30px;
 }
+
+.primeiro {
+    width: 78%;
+}
+
+.cardapio {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.itens-cardapio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+
+
+
+
+
+
 
 .itens-cardapio .info{
     background-color: rgb(221, 221, 221);
