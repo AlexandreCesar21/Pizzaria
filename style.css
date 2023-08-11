@@ -398,6 +398,7 @@ footer {
         justify-content: center;
         align-items: center;
         gap: 30px;
+        padding-right: 88px;
     }
 
     .cardapio {
@@ -419,9 +420,32 @@ footer {
 
     .itens-cardapio div {
         width: 100%;
-        margin-right: 88px;
     }
     
+
+    .itens-cardapio .info h3 {
+        font-size: 2.8rem;
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+        text-decoration: underline;
+    }
+    
+    .itens-cardapio .info h4 {
+        font-size: 2.4rem;
+        text-transform: uppercase;
+        margin-bottom: 0.6rem;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: 150px 150px;
+        margin-left: 6rem;
+    }
+    
+    .itens-cardapio .info h4 span {
+        font-size: 2.6rem;
+        color: #585858;
+        margin-left: 1.5rem;
+        text-decoration: underline;
 }
 
 @media (max-width: 1024px) {
