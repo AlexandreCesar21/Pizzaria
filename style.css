@@ -355,6 +355,9 @@ footer {
     justify-content: center;
 }
 
+
+
+
 @media (max-width: 1200px) {
     .main {
         display: block;
@@ -371,6 +374,18 @@ footer {
     .sobre-nos img {
         width: 600px;
         margin-left: -2px
+    }
+}
+
+@media (max-width: 1280px){
+    .primeiro {
+        width: 89%;
+    }
+}
+
+@media (max-width: 1540px){
+    .primeiro {
+        width: 65%;
     }
 }
 
@@ -446,17 +461,64 @@ footer {
         color: #585858;
         margin-left: 1.5rem;
         text-decoration: underline;
+    }
 }
 
 @media (max-width: 1024px) {
-    .itens-cardapio {
+    .logo {
+        width: 70px;
+        height: auto;
+        cursor: pointer;
         display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        margin-left: 60px;
+        align-items: center;
+        margin-right: 170px;
     }
     
+    .logo h3 {
+        color: white;
+        font-size: 3.6rem;
+        margin-bottom: 50px;
+    }
+    
+    .logo img {
+        width: 120%;
+        height: 100%;
+        margin-bottom: 50px;
+    }
+
+    .content .list-menu {
+        width: 600px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+   
+    .content {
+        width: 100vw;
+        height: 70px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #1f1f1f;
+        position: fixed;
+        padding-left: 30rem;
+        padding: 95px;
+    }
+
+    .itens-cardapio {
+        width: 80%;
+        margin-top: 2rem;
+        margin-left: 50px;
+        margin-bottom: 2rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 550px));
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
     .primeiro {
-        width: 97%;
+        width: 100%;
     }
 }
