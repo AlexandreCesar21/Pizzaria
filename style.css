@@ -404,64 +404,36 @@ footer {
 }
 
 @media (max-width: 768px) {
+
+
+    html {
+        font-size: 50%;
+    }
+
+    header {
+        font-size: 20%;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0px 40px;
+    }
+
+
+    .list-menu {
+        display: none;
+    }
+
     .itens-cardapio {
-        width: 100%;
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 550px));
-        justify-content: center;
-        align-items: center;
-        gap: 30px;
-        padding-right: 88px;
+        grid-template-columns: repeat(2, minmax(50px, 350px));
     }
 
-    .cardapio {
-        display: grid;
-        grid-template-columns: repeat(1, 0fr);
-        gap: 20px;
-    }
-    
-    .cardapio h2 {
-        font-size: 7rem;
-        color: #e6e6e6;
-        text-transform: uppercase;
-        text-align: right;
-        justify-content: right;
-        justify-items: right;
-        margin-right: 88px;
-        margin-top: 90px;
-    }
-
-    .itens-cardapio div {
-        width: 100%;
-    }
-    
-
-    .itens-cardapio .info h3 {
-        font-size: 2.8rem;
-        text-transform: uppercase;
-        margin-bottom: 1rem;
-        text-decoration: underline;
-    }
-    
     .itens-cardapio .info h4 {
-        font-size: 2.4rem;
-        text-transform: uppercase;
-        margin-bottom: 0.6rem;
-        display: grid;
-        justify-content: center;
-        align-items: center;
-        grid-template-columns: 150px 150px;
-        margin-left: 6rem;
+        margin-left: 12rem;
     }
-    
-    .itens-cardapio .info h4 span {
-        font-size: 2.6rem;
-        color: #585858;
-        margin-left: 1.5rem;
-        text-decoration: underline;
-    }
+
 }
 
 @media (max-width: 1024px) {
@@ -504,6 +476,11 @@ footer {
         position: fixed;
         padding-left: 30rem;
         padding: 95px;
+        margin-top: -110px;
+    }
+
+    .first-section {
+        margin-top: 100px;
     }
 
     .itens-cardapio {
