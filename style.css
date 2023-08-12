@@ -15,6 +15,7 @@ html {
     height: 100vh;
     font-size: 62.5%;
     overflow-x: hidden;
+    background-color: #1f1f1f;
 }
 
 /* Menu */
@@ -422,9 +423,74 @@ footer {
     }
 
 
-    .list-menu {
+    .content .list-menu {
         display: none;
     }
+
+    .one, .two, .three {
+        width: 80%;
+        height: 2px;
+        background-color: white;
+        margin: 6px auto;
+        transition-duration: 0.5s;
+    }
+
+    .menu-toggle {
+        width: 30px;
+        height: 30px;
+    }
+
+    .content.on {
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(30, 31, 30, 0.8);
+        z-index: 10;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .content.on .logo {
+        display: none;
+    }
+
+
+    .content.on .menu-toggle {
+        position: absolute;
+        right: 40px;
+        bottom: 700px;
+    }
+
+    .content.on .list-menu {
+        display: block;
+    }
+
+    .content.on .list-menu li {
+        display: flex;
+        justify-content: center;
+    }
+
+    .content.on .menu-toggle .two {
+        opacity: 0;
+    }
+
+    .content.on .menu-toggle .one {
+        transform: rotate(45deg) translate(5px, -8px);
+    }
+
+    .content.on .menu-toggle .three {
+        transform: rotate(-45deg) translate(20px, -6px);
+    }
+
+    .content.on .list-menu li a {
+        font-size: 2rem;
+    }
+
+
 
     .itens-cardapio {
         grid-template-columns: repeat(2, minmax(50px, 350px));
@@ -434,8 +500,33 @@ footer {
         margin-left: 12rem;
     }
 
+    .contatos-secao {
+        display: block;
+        text-align: center;
+        font-size: 2rem;
+    } 
+
+    .contatos-secao div {
+        margin: 1rem;
+    }
+
 }
 
+@media(max-width: 600px) {
+    .conteudo-principal {
+        width: 500px;
+        text-align: center;
+        font-size: 4rem;
+    }
+
+    .conteudo-principal h2 {
+        font-size: 2rem;
+    }
+
+    
+}
+
+/*
 @media (max-width: 1024px) {
     .logo {
         width: 70px;
@@ -499,3 +590,4 @@ footer {
         width: 100%;
     }
 }
+*/
