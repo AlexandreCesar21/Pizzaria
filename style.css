@@ -414,6 +414,32 @@ footer {
     }
 }
 
+@media (max-width: 800px){
+    .logo {
+        margin-right: 600px;
+    }
+
+    .menu {
+        margin-left: -99px;
+    }
+
+    .cardapio {
+        display: flex;
+    }
+
+    .cardapio h2 {
+        margin-right: 90px;
+    }
+
+    .itens-cardapio {
+        margin-left: 150px;
+    }
+
+    .itens-cardapio .primeiro {
+        width: 58%;
+    }
+}
+
 @media (max-width: 768px) {
 
 
