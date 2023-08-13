@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Source+Sans+3:wght@900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -36,12 +38,17 @@ html {
     height: auto;
     cursor: pointer;
     display: flex;
-    align-items: center;
+    align-items: right;
+    text-align: right;
+    justify-content: right;
+    justify-items: right;
+    margin-right: 700px;
 }
 
 .logo h3 {
     color: white;
     font-size: 1.6rem;
+    margin-top: 10px;
 }
 
 .logo img {
@@ -54,6 +61,8 @@ html {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-left: 300px;
+    margin-top: -40px;
 }
 
 .content .list-menu li a {
@@ -104,6 +113,7 @@ html {
 
 .first-section h1 {
     color: #ffc506;
+    font-family: 'Indie Flower', cursive;
     font-size: 6rem;
     text-transform: uppercase;
     margin-bottom: 1rem;
@@ -111,6 +121,7 @@ html {
 
 .first-section h2 {
     color: rgb(177, 177, 177);
+    font-family: 'Indie Flower', cursive;
     font-size: 3rem;
     font-weight: 400;
     text-transform: uppercase;
@@ -145,13 +156,27 @@ html {
 /* Sobre nós */
 
 .sobre-nos {
-    background-color: #1f1f1f;
+    background-color: #1f1e1f;
     width: 100%;
     padding-bottom: 5rem;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.contentsobre {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main{
+    
+    display: flex;
+    justify-content: space-between;
 }
 
 .sobre-nos img {
@@ -162,27 +187,16 @@ html {
     border: 2px solid rgb(155, 155, 155);
 }
 
-.main {
-    display: flex;
-    justify-content: space-between;
-}
-
-.contentsobre {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
 .contentsobre h2 {
-    font-size: 6rem;
-    margin-bottom: 1rem;
+   font-size: 6rem;
+   margin-bottom: 1rem;
+   font-family: 'Indie Flower', cursive;
 }
 
 .contentsobre p {
-    text-align: center;
-    font-size: 1.8rem;
-    width: 600px;
+   text-align: center;
+   font-size: 1.8rem;
+   width: 600px;
 }
 
 /* Cardápio  */ 
@@ -222,8 +236,8 @@ html {
     gap: 30px;
 }
 
-.primeiro {
-    width: 78%;
+.itens-cardapio .primeiro {
+    width: 97%;
 }
 
 .cardapio {
@@ -236,13 +250,8 @@ html {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-left: 100px;
+    margin-left: 50px;
 }
-
-
-
-
-
 
 
 .itens-cardapio .info{
@@ -325,6 +334,7 @@ html {
 .contatos h3 {
     font-size: 6rem;
     margin-bottom: 3rem;
+    font-family: 'Indie Flower', cursive;
 }
 
 .contatos-secao {
@@ -621,69 +631,3 @@ footer {
         font-size: 1.5rem;
     }
 }
-
-/*
-@media (max-width: 1024px) {
-    .logo {
-        width: 70px;
-        height: auto;
-        cursor: pointer;
-        display: flex;
-        align-items: center;
-        margin-right: 170px;
-    }
-    
-    .logo h3 {
-        color: white;
-        font-size: 3.6rem;
-        margin-bottom: 50px;
-    }
-    
-    .logo img {
-        width: 120%;
-        height: 100%;
-        margin-bottom: 50px;
-    }
-
-    .content .list-menu {
-        width: 600px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        
-    }
-   
-    .content {
-        width: 100vw;
-        height: 70px;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        background-color: #1f1f1f;
-        position: fixed;
-        padding-left: 30rem;
-        padding: 95px;
-        margin-top: -110px;
-    }
-
-    .first-section {
-        margin-top: 100px;
-    }
-
-    .itens-cardapio {
-        width: 80%;
-        margin-top: 2rem;
-        margin-left: 50px;
-        margin-bottom: 2rem;
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 550px));
-        justify-content: center;
-        align-items: center;
-        gap: 30px;
-    }
-
-    .primeiro {
-        width: 100%;
-    }
-}
-*/
