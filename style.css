@@ -381,28 +381,38 @@ footer {
 }*/
 
 @media (max-width: 1400px){
-    
-    
     .content {
-        padding-left: 5%; /* Reduz o padding esquerdo */
+        padding-left: 5%; 
     }
 
     .logo {
-        margin-right: 20px; /* Reduz a margem direita */
+        margin-right: 20px; 
     }
 
     .content .list-menu {
-        width: 50%; /* Reduz a largura do menu */
-        margin-left: auto; /* Alinha o menu à direita */
-        margin-right: 5%; /* Adiciona um pequeno espaço à direita */
-        
+        width: 50%; 
+        margin-left: auto; 
+        margin-right: 5%;  
     }
     
     .content .list-menu li {
-        margin-right: 10px; /* Adiciona espaço entre as opções do menu */
+        margin-right: 20px; 
         margin-top: 35px;
     }
-    
+
+    .sobre {
+        display: none;
+    }
+
+    .itens-cardapio .primeiro {
+        width: 70%;
+    }
+
+
+    .itens-cardapio {
+        margin-left: 150px;
+    }
+
 }
 
 
