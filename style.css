@@ -380,6 +380,33 @@ footer {
 
 }*/
 
+@media (max-width: 1400px){
+    
+    
+    .content {
+        padding-left: 5%; /* Reduz o padding esquerdo */
+    }
+
+    .logo {
+        margin-right: 20px; /* Reduz a margem direita */
+    }
+
+    .content .list-menu {
+        width: 50%; /* Reduz a largura do menu */
+        margin-left: auto; /* Alinha o menu à direita */
+        margin-right: 5%; /* Adiciona um pequeno espaço à direita */
+        
+    }
+    
+    .content .list-menu li {
+        margin-right: 10px; /* Adiciona espaço entre as opções do menu */
+        margin-top: 35px;
+    }
+    
+}
+
+
+
 @media (max-width: 1200px) {
     .main {
         display: block;
@@ -602,6 +629,18 @@ footer {
     .sobre-nos p {
         text-align: center;
         width: 400px;
+    }
+
+    .cardapio {
+        padding-left: 260px;
+    }
+
+    .itens-cardapio {
+        margin-right: 190px;
+    }
+
+    .itens-cardapio .primeiro{
+        width: 48%;
     }
 }
 
