@@ -367,6 +367,151 @@ footer {
     justify-content: center;
 }
 
+
+@media (max-width: 720px) {
+    .conteudo-principal h1 {
+        width: 350px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 645px) {
+
+    .menu {
+        display: none;
+    }
+
+    .sobre-nos img {
+        width: 400px;
+        margin-left: 10px;
+    }
+
+    .contentsobre p {
+        text-align: center;
+        width: 400px;
+     }
+
+     .btn {
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+     }
+
+     .contatos-secao {
+       width: 200px;
+        
+    }
+    .conteudo-principal h2 {
+        width: 200px;
+        text-align: center;
+    }
+
+    .btn {
+        width: 150px;
+    }
+}
+
+@media (max-width: 399px) {
+
+    .conteudo-principal h1 {
+       font-size: 3rem;
+    }
+    .conteudo-principal h2 {
+       font-size: 2rem;
+    }
+
+
+    .sobre-nos img {
+        width: 300px;
+        height: auto;
+        margin-left: 10px;
+    }
+
+    .contentsobre p {
+        text-align: center;
+        width: 200px;
+     }
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 @media (max-width: 1400px){
     .content {
@@ -599,67 +744,43 @@ footer {
 
 }
 */
-
+/*
 @media(max-width: 600px) {
-
-    .menu-toggle {
-        width: 30px;
-        height: 30px;
-        margin-left: -25px;
-        justify-items: center;
-        justify-content: center;
-        color: aqua;
-    }
-
-
-    .conteudo-principal {
-        width: 500px;
-        text-align: center;
-        font-size: 4rem;
-    }
-
-    .conteudo-principal h2 {
-        font-size: 2rem;
-    }
-
-    .itens-cardapio {
-        width: 80%;
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 550px));
-        justify-content: center;
-        align-items: center;
-        gap: 30px;
-        
+    .menu {
+        display: none;
     }
 
     .sobre-nos img {
         width: 400px;
-        height: 250px;
         margin-left: 10px;
     }
 
-    .sobre-nos p {
+    .contentsobre p {
         text-align: center;
         width: 400px;
+     }
+
+     .btn {
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+     }
+
+     .contatos-secao {
+       width: 200px;
+        
+    }
+    .conteudo-principal h2 {
+        width: 200px;
+        text-align: center;
     }
 
-    .cardapio {
-        padding-left: 260px;
+    .btn {
+        width: 150px;
     }
-
-    .itens-cardapio {
-        margin-right: 190px;
-    }
-
-    .itens-cardapio .primeiro{
-        width: 48%;
-    }
+    
 }
-
-
-
+*/
 /*
 @media(max-width: 700px){
     .logo {
@@ -693,22 +814,8 @@ footer {
         width: 75%;
     }
 }
+
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 @media(max-width: 500px) {
     .btn {
