@@ -42,7 +42,7 @@ html {
     text-align: right;
     justify-content: right;
     justify-items: right;
-    margin-right: 700px;
+    margin-right: 1100px;
 }
 
 .logo h3 {
@@ -61,8 +61,8 @@ html {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-left: 300px;
-    margin-top: -40px;
+    margin-left: -900px;
+    margin-top: -10px;
 }
 
 .content .list-menu li a {
@@ -367,19 +367,6 @@ footer {
 }
 
 /*
-@media (max-width: 1300px) {
-    .logo {
-        margin-left: 450px;
-    }
-
-    .list-menu{
-        display: block;
-        justify-items: right;
-        justify-self: right;
-    }
-
-}*/
-
 @media (max-width: 1400px){
     .content {
         padding-left: 5%; 
@@ -414,9 +401,9 @@ footer {
     }
 
 }
+*/
 
-
-
+/*
 @media (max-width: 1200px) {
     .main {
         display: block;
@@ -461,7 +448,10 @@ footer {
         margin-left: 50px;
     }
 }
+*/
 
+
+/*
 @media (max-width: 800px){
     .logo {
         margin-right: 600px;
@@ -608,6 +598,17 @@ footer {
 }
 
 @media(max-width: 600px) {
+
+    .menu-toggle {
+        width: 30px;
+        height: 30px;
+        margin-left: -25px;
+        justify-items: center;
+        justify-content: center;
+        color: aqua;
+    }
+
+
     .conteudo-principal {
         width: 500px;
         text-align: center;
@@ -749,14 +750,14 @@ footer {
         height: auto;
     }
 
-    /*
+    
     .itens-cardapio div {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-*/
+
 
     .itens-cardapio .info {
         width: 100%;
@@ -773,3 +774,5 @@ footer {
         font-size: 1.5rem;
     }
 }
+
+*/
